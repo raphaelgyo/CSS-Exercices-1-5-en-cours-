@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CSS - Exercice 4 : Mise en couleur du formulaire</title>
+        <link rel="stylesheet" href="assets/css/style.css" />
+    </head>
+    <body>
+        <form action="my-handling-form-page" method="post">
+            <fieldset class="identityInfo">
+                <legend class="identityInfo">Votre identité</legend>
+                <div>
+                    <ol>
+                        <li>
+                            <label for="name">Nom :</label>
+                            <input type="text" id="name" placeholder="Nom" name="user_name">
+                        </li>
+                        <li>
+                            <label for="forname">Prénom :</label>
+                            <input type="text" id="forname" placeholder="Prénom" name="user_forname">
+                        </li>
+                        <li>
+                            <label for="mail">Adresse mail :</label>
+                            <input type="email" id="mail" placeholder="Adresse mail" name="user_mail">
+                        </li>
+                    </ol>
+                </div>
+            </fieldset>
+            <fieldset class="adressInfo">
+                <legend class="adressInfo">Adresse de livraison</legend>
+                <div>
+                    <ol>
+                        <li>
+                            <label for="adress">Adresse :</label>
+                            <textarea id="adress" name="user_adress"></textarea>
+                        </li>
+                        <li>
+                            <label for="zipcode">Code postal :</label>
+                            <input type="text" id="zipcode" placeholder="Code postal" name="user_zipcode" maxlength="5" pattern="[0-9]{5}">
+                        </li>
+                        <li>
+                            <label for="city">Ville :</label>
+                            <input type="text" id="city" placeholder="Ville" name="user_city">
+                        </li>
+                    </ol>
+                </div>
+            </fieldset>
+            <fieldset class="paymentInfo">
+                <legend class="paymentInfo">Informations de règlement</legend>
+                <div>
+                    <ol>
+                        <li>
+                            <label for="creditCardType">Type de carte bancaire :</label>
+                            <div>
+                                <input type="radio" name="coche" value="small" id="visa">
+                                <label for="Visa">VISA</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="coche" value="small" id="mastercard">
+                                <label for="Visa">MasterCard</label>
+                            </div>
+                        </li>
+                        <li>
+                            <label for="creditCardNumber">Numéro de carte :</label>
+                            <input type="text" id="creditCardNumber" placeholder="Numéro de carte"
+                                name="user_creditCardNumber" maxlength="16" pattern="[0-9]{16}">
+                        </li>
+                        <li>
+                            <label for="securityID">Code de sécurité :</label>
+                            <input type="text" id="securityID" placeholder="Code de sécurité" name="user_securityID" maxlength="3" pattern="[0-9]{3}">
+                        </li>
+                        <li>
+                            <label for="holderName">Nom du titulaire :</label>
+                            <input type="text" id="holderName" placeholder="Nom du titulaire" name="user_holderName">
+                        </li>
+                    </ol>
+                </div>
+            </fieldset>
+            <div class="button">
+                <button type="submit" class="buttonSubmit">J'achète!</button>
+            </div>
+        </form>
+    </body>
+</html>

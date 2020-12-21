@@ -1,0 +1,179 @@
+/* reset css */
+
+* {
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    color: #444;
+    background: #f4f4f4;
+    padding: 0 0 2em 0;
+    margin: 0;
+}
+
+/* mise en forme titres */
+
+h1 {
+    color: #99b92c;
+    font-size: 4em;
+    font-weight: normal;
+    text-shadow: 1px 1px 1px #cccccc;
+    background: white;
+    border-bottom: 2px dotted #ccc;
+    margin: 0;
+    padding: 0.8em;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 1.5em 0 .8em 0;
+    color: #444;
+    text-shadow: 1px 1px 1px #cccccc;
+}
+
+hr {
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+/* mise en forme header */
+
+.mainHead {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0px 3px 8px -1px #22678f;
+    background-color: #F6F6F6;
+}
+
+.mainHeadTitle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* mise en forme bannière */
+
+.banner {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner-img {
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* mise ne forme slogan et citation */
+
+.slogan {
+    align-self: flex-start;
+}
+
+.citation {
+    align-self: flex-end;
+}
+
+/* mise en forme conteneur principal */
+
+#mainContainer {
+    width: 980px;
+    margin: 0 auto 0 auto;
+}
+
+#main {
+    float: left;
+    width: 75%;
+    margin: 0 0 50px 0;
+}
+
+#sidebar {
+    float: left;
+    width: 22%;
+    margin-left: 1%;
+    margin-top: 1em;
+}
+
+footer {
+    clear: both;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+ul {
+    background-color: #dddddd;
+}
+/* mise en forme article */
+
+article {
+    border: 1px dashed #444;
+    margin: 1em;
+    padding: 1em;
+    background: #fff;
+}
+
+article h2 {
+    margin-top: 1em;
+}
+
+article header, article footer {
+    border: 1px dashed #ccc;
+    padding: 1em;
+    background: #ddd;
+}
+
+aside {
+    border: 1px dashed #444;
+}
+
+article aside {
+    background: #fff;
+    margin: 1em 3em;
+    padding: 0.5em;
+    border: 1px dashed #ccc;
+}
+
+/* Marquage spécifique */
+
+article, footer, header, aside, nav {
+    position: relative;
+}
+
+/* footer */
+
+#main-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px -1px 3.5px -1px #22678f;
+    padding: 0.5em 0.15em;
+}
+
+#main-footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

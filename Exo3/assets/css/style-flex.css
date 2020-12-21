@@ -1,0 +1,67 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#containerFlex {
+  display: flex;
+  flex-wrap: wrap;
+}
+#line2 {
+  display: flex;
+  width: 100%;
+}
+#column2 {
+  width: 70%;
+}
+#column2line1 {
+  display: flex;
+  width: 100%;
+}
+#column2line2 {
+  display: flex;
+  width: 100%;
+}
+#rectangle1{
+	width:80%;
+	height:40px;
+	background:#2ECC71;
+}
+#rectangle2{
+	width:20%;
+	height:40px;
+	background:#2980B9;
+}
+#rectangle3{
+	width:30%;
+	height:120px;
+	background:#E73418;
+}
+#rectangle4{
+	width:50%;
+	height:60px;
+	background:#E67E22;
+}
+#rectangle5{
+	width:50%;
+	height:60px;
+	background:#95A5A6;
+}
+#rectangle6{
+	width:33.3%;
+	height:60px;
+	background:#F39C12;
+}
+#rectangle7{
+	width:33.3%;
+	height:60px;
+	background:#16A085 ;
+}
+#rectangle8{
+	width:33.3%;
+	height:60px;
+	background:#D35400;
+}
+#rectangle9{
+	width:100%;
+	height:200px;
+	background:#2C3E50;
+}
