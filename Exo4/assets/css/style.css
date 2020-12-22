@@ -28,3 +28,19 @@ textarea {
 .buttonSubmit{
   box-shadow: 0px -1px 3.5px -1px #2574A9;
 }
+/* dénuméroter les ol */
+ol {
+  list-style: none;
+}
+.identityInfo, .adressInfo, .paymentInfo{
+  width: 25%;
+}
+legend{
+  text-align: center;
+}
+#name, #forname, #mail, {
+  float: right;
+}
+li{
+  margin: 5px 5px 5px 5px;
+}

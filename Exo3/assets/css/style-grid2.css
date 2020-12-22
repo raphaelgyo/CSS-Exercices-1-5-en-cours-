@@ -1,0 +1,116 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 6fr 8fr;
+    gap: 0px 0px;
+    grid-template-areas: "rec1 rec1 rec1 rec1 rec2" "secondRow secondRow secondRow secondRow secondRow" "rec9 rec9 rec9 rec9 rec9";
+    height: 300px;
+}
+
+.rec1 {
+    grid-area: rec1;
+    background-color: #2ECC71;
+}
+
+.rec2 {
+    grid-area: rec2;
+    background-color: #2980B9;
+}
+
+.secondRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "rec3 rec4 rec5" "rec3 secondRow-sub secondRow-sub";
+    grid-area: secondRow;
+}
+
+.rec3 {
+    grid-area: rec3;
+    background-color: #E74C3C;
+}
+
+.rec4 {
+    grid-area: rec4;
+    background-color: #E67E22;
+}
+
+.rec5 {
+    grid-area: rec5;
+    background-color: #95A5A6;
+}
+
+.secondRow-sub {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "rec6 rec7 rec8";
+    grid-area: secondRow-sub;
+}
+
+.rec6 {
+    grid-area: rec6;
+    background-color: #F39C12;
+}
+
+.rec7 {
+    grid-area: rec7;
+    background-color: #16A085;
+}
+
+.rec8 {
+    grid-area: rec8;
+    background-color: #D35400;
+}
+
+.rec9 {
+    grid-area: rec9;
+    background-color: #2C3E50;
+}
+
+
+/* autre méthode CSS */
+
+/* .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+  }
+  
+  .rec1 { grid-area: 1 / 1 / 2 / 5; }
+  
+  .rec2 { grid-area: 1 / 5 / 2 / 6; }
+  
+  .secondRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-area: 2 / 1 / 3 / 6;
+  }
+  
+  .rec3 { grid-area: 1 / 1 / 3 / 2; }
+  
+  .rec4 { grid-area: 1 / 2 / 2 / 3; }
+  
+  .rec5 { grid-area: 1 / 3 / 2 / 4; }
+  
+  .secondRow-sub {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-area: 2 / 2 / 3 / 4;
+  }
+  
+  .rec6 { grid-area: 1 / 1 / 2 / 2; }
+  
+  .rec7 { grid-area: 1 / 2 / 2 / 3; }
+  
+  .rec8 { grid-area: 1 / 3 / 2 / 4; }
+  
+  .rec9 { grid-area: 3 / 1 / 4 / 6; }
+   */

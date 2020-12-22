@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
 /* reset css */
 * {
     max-width: 100%;
@@ -12,38 +13,13 @@ body {
     padding: 0 0 2em 0;
     margin: 0;
 }
-/* mise en forme titres */
-h1 {
-    color: #99b92c;
-    font-size: 4em;
-    font-weight: normal;
-    text-shadow: 1px 1px 1px #cccccc;
-    background: white;
-    margin: 0;
-    padding: 0.8em;
-    font-family: 'Roboto', sans-serif;
-}
-h2 {
-    font-size: 2em;
-    margin: 1.5em 0 .8em 0;
-    color: #444;
-    text-shadow: 1px 1px 1px #cccccc;
-    font-style: italic;
-    font-family: 'Roboto', sans-serif;
-}
-hr {
-    border: 10px solid #e71f27;
-    width: 100%;
-}
-p {font-family: 'Open Sans', sans-serif;
-}
 /* mise en forme header */
 .mainHead {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
     box-shadow: 0px 3px 8px -1px #22678f;
     background-color: #F6F6F6;
 }
@@ -54,30 +30,39 @@ p {font-family: 'Open Sans', sans-serif;
     align-items: center;
     text-align: center;
 }
-/* mise en forme bannière */
-.banner {
-    width: 100%;
-    display: flex;
-    overflow: hidden;
-    position: relative;
+/* mise en forme titres */
+h1 {
+    color: #4C4C4C;
+    font-size: 4em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.8em;
+    font-family: 'Bungee Outline', cursive;
 }
-.banner-img {
-    height: auto;
-    object-fit: cover;
-    object-position: center;
+h2 {
+    color: #444;
+    font-size: 2em;
+    margin: 1.5em 0 .8em 0;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+}
+hr {
+    border: 10px solid #5c5656;
+    width: 100%;
 }
 /* mise ne forme slogan et citation */
 .slogan {
     align-self: flex-start;
+    font-weight: bold;
 }
 .citation {
     align-self: flex-end;
 }
 /* mise en forme conteneur principal */
-
 #mainContainer {
     width: 980px;
     margin: 0 auto 0 auto;
+    box-shadow: 0px 3px 8px -1px #22678f;
 }
 #main {
     float: left;
@@ -88,6 +73,7 @@ p {font-family: 'Open Sans', sans-serif;
     float: left;
     width: 22%;
     margin-left: 1%;
+    box-shadow: 0px 3px 8px -1px #22678f;
     margin-top: 1em;
 }
 footer {
@@ -98,32 +84,33 @@ nav ul li {
     padding: 10px;
     font-family: 'Roboto', sans-serif;
 }
-ul {
+/* ul {
     background-color: #dddddd;
-}
+} */
 /* mise en forme article */
 article {
-    border: 1px dashed #444;
+    border: 1px solid #444;
     margin: 1em;
     padding: 1em;
     background: #fff;
+    box-shadow: 0px 3px 8px -1px #22678f;
 }
 article h2 {
     margin-top: 1em;
 }
 article header, article footer {
-    border: 1px dashed #ccc;
+    border: 1px solid #ccc;
     padding: 1em;
     background: #ddd;
 }
 aside {
-    border: 1px dashed #444;
+    border: 1px solid #444;
 }
 article aside {
     background: #fff;
     margin: 1em 3em;
     padding: 0.5em;
-    border: 1px dashed #ccc;
+    border: 1px solid #ccc;
 }
 /* Marquage spécifique */
 article, footer, header, aside, nav {
@@ -145,8 +132,31 @@ article, footer, header, aside, nav {
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+/* Police des paragraphes */
+p {
+    font-family: 'Open Sans', sans-serif;
 }
 /* enlever le surlignage des liens */
 a {
     text-decoration: none;
+    color: #4C4C4C;
+}
+/* changer la couleur des liens au survol */
+a:hover {
+    color: #e71f27;
+}
+/* couleurs icônes réseaux sociaux */
+.fa-facebook {
+    color: #1877F2;
+}
+.fa-twitter {
+    color: #1DA1F2;
+}
+.fa-youtube {
+    color: #FF0000;
+}
+ul.list-inline.social-icons, i.fas.fa-film{
+    font-size: 3rem;
 }
