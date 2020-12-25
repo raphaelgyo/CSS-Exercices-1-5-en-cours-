@@ -1,26 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 body {
-    background-image: url("../img/jeans.jpg");
+    background-image: url('../img/jeans.jpg');
 }
 #headerSection {
-    background-image: url("../img/frise.png");
+    background-image: url('../img/frise.png');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 250px;
+    height: 150px;
 }
 #titleHeader {
     font-size: 60px;
     font-weight: 900;
     text-shadow: 2px 2px 8px black;
     color: white;
-    font-family: 'Bungee Outline', cursive;
+    font-family: 'Bangers', cursive;
 }
 .imgSize {
     height: 270px;
 }
 #backColorJumbotronPres {
-    background-color: rgba(233, 236, 239, 0.7);
+    background-color: rgba(233, 236, 239, 0.5);
 }
 h2 {
     color: #444;
@@ -39,13 +39,6 @@ h2 {
     text-align: center;
     box-shadow: 0px -1px 3.5px -1px #22678f;
     padding: 0.5em 0.15em;
-}
-#main-footer p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
 }
 /* Police des paragraphes */
 p {
