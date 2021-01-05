@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 body {
-    background-image: url('../img/jeans.jpg');
+    /* background-image: url('../img/jeans.jpg'); */
+    /* Ultimate Grey to Illuminating tendances 2021 Pantone */
+    background-image: linear-gradient(to right, #939597, #79afba, #61cab3, #95dd83, #f5df4d);
 }
 #headerSection {
     background-image: url('../img/frise.png');
@@ -19,14 +21,22 @@ body {
 .imgSize {
     height: 270px;
 }
+/* .imgSize{
+    max-width: 100%;
+    height: auto;
+} */
 #backColorJumbotronPres {
     background-color: rgba(233, 236, 239, 0.5);
 }
 h2 {
     color: #444;
-    font-size: 2em;
+    font-size: 24px;
     margin: 0.5em 0.8em;
     font-style: italic;
+    font-family: 'Roboto', sans-serif;
+}
+h3 {
+    font-size: 20px;
     font-family: 'Roboto', sans-serif;
 }
 /* footer */
