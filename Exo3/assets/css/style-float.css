@@ -1,60 +1,61 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-#containerFloat>div {
+#containerFloat > div {
   float: left;
 }
 
 #rec1 {
-  background-color: #2ECC71;
+  background-color: #2ecc71;
   width: 80%;
   height: 40px;
 }
 
 #rec2 {
-  background-color: #2980B9;
+  background-color: #2980b9;
   width: 20%;
   height: 40px;
 }
 
 #rec3 {
-  background-color: #E74C3C;
+  background-color: #e74c3c;
   width: 30%;
   height: 120px;
 }
 
 #rec4 {
-  background-color: #E67E22;
+  background-color: #e67e22;
   width: 35%;
   height: 60px;
 }
 
 #rec5 {
-  background-color: #95A5A6;
+  background-color: #95a5a6;
   width: 35%;
   height: 60px;
 }
 
 #rec6 {
-  background-color: #F39C12;
+  background-color: #f39c12;
   width: 23%;
   height: 60px;
 }
 
 #rec7 {
-  background-color: #16A085;
+  background-color: #16a085;
   width: 24%;
   height: 60px;
 }
 
 #rec8 {
-  background-color: #D35400;
+  background-color: #d35400;
   width: 23%;
   height: 60px;
 }
 
 #rec9 {
-  background-color: #2C3E50;
+  background-color: #2c3e50;
   width: 100%;
   height: 240px;
 }

@@ -1,75 +1,74 @@
 .grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 2fr 6fr 8fr;
-    gap: 0px 0px;
-    grid-template-areas: "rec1 rec1 rec1 rec1 rec2" "secondRow secondRow secondRow secondRow secondRow" "rec9 rec9 rec9 rec9 rec9";
-    height: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2fr 6fr 8fr;
+  gap: 0px 0px;
+  grid-template-areas: 'rec1 rec1 rec1 rec1 rec2' 'secondRow secondRow secondRow secondRow secondRow' 'rec9 rec9 rec9 rec9 rec9';
+  height: 300px;
 }
 
 .rec1 {
-    grid-area: rec1;
-    background-color: #2ECC71;
+  grid-area: rec1;
+  background-color: #2ecc71;
 }
 
 .rec2 {
-    grid-area: rec2;
-    background-color: #2980B9;
+  grid-area: rec2;
+  background-color: #2980b9;
 }
 
 .secondRow {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 0px 0px;
-    grid-template-areas: "rec3 rec4 rec5" "rec3 secondRow-sub secondRow-sub";
-    grid-area: secondRow;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas: 'rec3 rec4 rec5' 'rec3 secondRow-sub secondRow-sub';
+  grid-area: secondRow;
 }
 
 .rec3 {
-    grid-area: rec3;
-    background-color: #E74C3C;
+  grid-area: rec3;
+  background-color: #e74c3c;
 }
 
 .rec4 {
-    grid-area: rec4;
-    background-color: #E67E22;
+  grid-area: rec4;
+  background-color: #e67e22;
 }
 
 .rec5 {
-    grid-area: rec5;
-    background-color: #95A5A6;
+  grid-area: rec5;
+  background-color: #95a5a6;
 }
 
 .secondRow-sub {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 0px 0px;
-    grid-template-areas: "rec6 rec7 rec8";
-    grid-area: secondRow-sub;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: 'rec6 rec7 rec8';
+  grid-area: secondRow-sub;
 }
 
 .rec6 {
-    grid-area: rec6;
-    background-color: #F39C12;
+  grid-area: rec6;
+  background-color: #f39c12;
 }
 
 .rec7 {
-    grid-area: rec7;
-    background-color: #16A085;
+  grid-area: rec7;
+  background-color: #16a085;
 }
 
 .rec8 {
-    grid-area: rec8;
-    background-color: #D35400;
+  grid-area: rec8;
+  background-color: #d35400;
 }
 
 .rec9 {
-    grid-area: rec9;
-    background-color: #2C3E50;
+  grid-area: rec9;
+  background-color: #2c3e50;
 }
-
 
 /* autre méthode CSS */
 
